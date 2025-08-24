@@ -11,13 +11,13 @@ const Footer = () => {
               Get In Touch
             </h3>
             <div className="space-y-3">
-              <a href="mailto:somil@example.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:somiljain024@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                <span>somil@example.com</span>
+                <span>somiljain024@gmail.com</span>
               </a>
-              <a href="tel:+91-xxx-xxx-xxxx" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+91-8602375155" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>+91-XXX-XXX-XXXX</span>
+                <span>+91-860-237-5155</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-4 h-4" />
@@ -54,7 +54,7 @@ const Footer = () => {
             </h3>
             <div className="flex gap-4">
               <a 
-                href="https://linkedin.com/in/somiljain" 
+                href="https://www.linkedin.com/in/somil-jain-a10b1729b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
@@ -62,7 +62,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="https://github.com/somiljain" 
+                href="https://github.com/Somil-Jain24" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
@@ -70,7 +70,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:somil@example.com"
+                href="mailto:somiljain024@gmail.com"
                 className="w-10 h-10 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
               >
                 <Mail className="w-5 h-5" />

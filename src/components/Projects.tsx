@@ -86,14 +86,18 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-col gap-4">
-                  <Button className="bg-primary hover:bg-primary-hover text-primary-foreground">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
-                  </Button>
-                  <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground">
-                    <Github className="w-4 h-4 mr-2" />
-                    Source Code
-                  </Button>
+                  <a href="https://tutedemo.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-primary hover:bg-primary-hover text-primary-foreground w-full">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  </a>
+                  <a href="https://github.com/Somil-Jain24/tute.git" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground w-full">
+                      <Github className="w-4 h-4 mr-2" />
+                      Source Code
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>

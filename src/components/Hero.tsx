@@ -44,29 +44,35 @@ const Hero = () => {
 
               {/* Contact Info */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                <a href="tel:+91-xxx-xxx-xxxx" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a href="tel:+91-8602375155" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Phone className="w-4 h-4" />
-                  <span>+91-XXX-XXX-XXXX</span>
+                  <span>+91-860-237-5155</span>
                 </a>
-                <a href="mailto:somil@example.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <a href="mailto:somiljain024@gmail.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="w-4 h-4" />
-                  <span>somil@example.com</span>
+                  <span>somiljain024@gmail.com</span>
                 </a>
               </div>
 
               {/* Action Buttons */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-                <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-                  <Mail className="w-4 h-4 mr-2" />
-                  Get In Touch
-                </Button>
+                <a href="mailto:somiljain024@gmail.com">
+                  <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
+                    <Mail className="w-4 h-4 mr-2" />
+                    Get In Touch
+                  </Button>
+                </a>
                 <div className="flex gap-3">
-                  <Button variant="outline" size="icon" className="hover:bg-primary hover:text-primary-foreground">
-                    <Linkedin className="w-5 h-5" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="hover:bg-primary hover:text-primary-foreground">
-                    <Github className="w-5 h-5" />
-                  </Button>
+                  <a href="https://www.linkedin.com/in/somil-jain-a10b1729b/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="hover:bg-primary hover:text-primary-foreground">
+                      <Linkedin className="w-5 h-5" />
+                    </Button>
+                  </a>
+                  <a href="https://github.com/Somil-Jain24" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="hover:bg-primary hover:text-primary-foreground">
+                      <Github className="w-5 h-5" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
