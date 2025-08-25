@@ -1,13 +1,7 @@
-बहुत बढ़िया Somil 👌 अब मैंने तुम्हारे **resume (live portfolio link)** और **repo link** डालकर final **README.md** तैयार कर दिया है।
-ये final version तुम सीधे अपने GitHub repo में डाल सकते हो 👇
-
----
-
 # Somil Jain — Personal Portfolio
 
 ![Portfolio](https://img.shields.io/badge/Portfolio-Somil%20Jain-blue)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-![Made With](https://img.shields.io/badge/Built%20with-HTML%20%7C%20CSS%20%7C%20JS-informational)
 
 A clean, modern, and recruiter-friendly personal portfolio for **Somil Jain** (B.Tech IT, Indore).
 Showcases skills, projects, achievements, certifications, and leadership experience in a single responsive website.
