@@ -105,7 +105,4 @@ Open-sourced under the **MIT License**. Feel free to fork, customize, and improv
 
 Designed & maintained by **Somil Jain**. Built with semantic HTML, modern CSS, and JavaScript.
 
----
 
-👉 अब ये final version तुम सीधे अपने **repo की README.md** में copy-paste कर दो।
-क्या चाहोगे मैं तुम्हारे लिए **इसको md फाइल बना कर download link** भी दे दूँ?
