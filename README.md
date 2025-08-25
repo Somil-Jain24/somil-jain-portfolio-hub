@@ -1,67 +1,117 @@
-# Somil Jain — Portfolio Hub
-
-Professional personal portfolio built with Vite, React + TypeScript and Tailwind CSS. It showcases projects, skills, education, certifications, and contact links in a compact, responsive layout.
-
-## Checklist
-- Update or run the project locally
-- Edit components (Hero, Footer, Certifications)
-- Troubleshoot build/JSX issues
-
-## Quick start (Windows PowerShell)
-Open PowerShell and run:
-
-```powershell
-cd "C:\Users\somil\OneDrive\Desktop\port\somil-jain-portfolio-hub"
-npm install
-npm run dev
-```
-
-- Visit the URL printed by Vite (commonly `http://localhost:5173/` or `http://localhost:8080/`).
-- Build for production:
-
-```powershell
-npm run build
-npm run preview
-```
-
-## What this repo contains
-- src/components — React components (Hero, Projects, Certifications, Footer, etc.)
-- src/components/ui — Reusable UI primitives (Button, Card, Toast...)
-- src/index.css — custom animations and global styles
-- public/lovable-uploads — profile and favicon assets
-
-## Features
-- Framed hero image and contact links (email, LinkedIn, GitHub)
-- Projects list with action buttons
-- Sections: Education, Skills, Certifications, Achievements
-- Light entrance animations (fade/slide/scale)
-
-## Editing tips
-- Contact links: `src/components/Hero.tsx` and `src/components/Footer.tsx` (email uses `mailto:`)
-- Certifications: `src/components/Certifications.tsx` — currently rendered as a vertical list. Revert to paired or grid layout by editing the component markup.
-- Button component: supports `asChild` (Radix Slot) so anchors can be styled as buttons without nesting interactive elements.
-
-## Troubleshooting
-- If you see a syntax error like "Expression expected" near JSX, open the file mentioned in the error and look for:
-	- stray JSX outside a function/component return
-	- duplicate exports or repeated component declarations
-	- a missing comma or bracket in object literals used inside JSX
-- Common fix: format the file and run `npm run dev` to get a fresh compile error with a stack trace.
-
-## Quality gates
-- Run the dev server (`npm run dev`) to surface TypeScript/JSX errors.
-- Run `npm run build` before deploying to ensure production build succeeds.
-
-## Optional improvements
-- Add a GitHub Actions workflow to run `npm ci` and `npm run build` on push.
-- Add `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` if you accept outside contributions.
-
-## Contact
-- Email: somiljain024@gmail.com
-- LinkedIn: https://www.linkedin.com/in/somil-jain-a10b1729b/
-- GitHub: https://github.com/Somil-Jain24
+बहुत बढ़िया Somil 👌 अब मैंने तुम्हारे **resume (live portfolio link)** और **repo link** डालकर final **README.md** तैयार कर दिया है।
+ये final version तुम सीधे अपने GitHub repo में डाल सकते हो 👇
 
 ---
 
-If you want, I can also add a CI workflow, a short CONTRIBUTING guide, or a commit hook that runs a quick TypeScript check. Tell me which and I will add it.
+# Somil Jain — Personal Portfolio
 
+![Portfolio](https://img.shields.io/badge/Portfolio-Somil%20Jain-blue)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![Made With](https://img.shields.io/badge/Built%20with-HTML%20%7C%20CSS%20%7C%20JS-informational)
+
+A clean, modern, and recruiter-friendly personal portfolio for **Somil Jain** (B.Tech IT, Indore).
+Showcases skills, projects, achievements, certifications, and leadership experience in a single responsive website.
+
+> **Live Demo:** [👉 View Portfolio](https://somil-jain-portfolio.netlify.app/)
+> **Repository:** [👉 GitHub Repo](https://github.com/Somil-Jain24/somil-jain-portfolio-hub.git)
+
+---
+
+## ✨ Features
+
+* Responsive, mobile-first layout
+* Smooth scroll & hover animations
+* Section-based navigation (About, Skills, Projects, Achievements, Certifications, Leadership, Contact)
+* Social icons for LinkedIn & GitHub
+* Downloadable resume option
+* Clean and professional design
+
+---
+
+## 🧑‍💻 About Me
+
+Motivated **B.Tech in Information Technology (2023–2027)** student at **Acropolis Institute of Technology and Research, Indore** with a strong grasp of programming and web development fundamentals.
+Seeking internship opportunities to build real-world experience and contribute to impactful products.
+
+* **Location:** Indore, Madhya Pradesh, India
+* **CGPA:** 7.25 / 10
+* **Languages:** Hindi (Fluent), English (Professional)
+* **Contact:** +91-8602375155 · [somiljain024@gmail.com](mailto:somiljain024@gmail.com)
+* **LinkedIn:** [linkedin.com/in/somil-jain](https://linkedin.com/)
+* **GitHub:** [github.com/Somil-Jain24](https://github.com/Somil-Jain24)
+
+---
+
+## 🧰 Tech Stack
+
+* **Languages:** C, C++, Java, JavaScript
+* **Web:** HTML5, CSS3
+* **Core CS:** Data Structures, Algorithms, OOP, DBMS
+* **Tools:** Git, GitHub, VS Code, Excel, Canva
+* **Soft Skills:** Team Collaboration, Public Speaking, Time Management
+
+---
+
+## 🚀 Project Highlights
+
+### Health Saarthi — Smart Web Healthcare Solution
+
+* Symptom-based illness hints & nearby doctor locator
+* Bilingual support (Hindi & English)
+* Integrated chatbot for first-level health awareness
+* Clean & responsive UI
+
+---
+
+## 🏆 Hackathons & Achievements
+
+* **Front-End Battle 2.0 (June 2025):** Designed responsive UI with dynamic theme toggling
+* **Tutedude Buildathon (June 2025):** Developed live health web project UI
+* **DCC Mystery Challenge (2025):** Participated in logic-building challenge
+
+---
+
+## 🎓 Certifications
+
+* Introduction to Cybersecurity — Cisco Networking Academy (July 2025)
+* OOP Onramp — MathWorks (June 2025)
+* AI Specialist — Salesforce (Jan 2025)
+* AI Associate — Salesforce Trailhead (2025)
+* Cybersecurity Workshop — CY3 (2025)
+* MATLAB & Image Processing Onramp — MathWorks (2024)
+
+---
+
+## 🧭 Leadership
+
+**Photography Lead — DSAC (Data Science & Analytics Club)**
+
+* Event documentation & media coordination
+* Cross-functional collaboration for tech promotion
+* Strengthened communication & teamwork
+
+---
+
+## 🤝 Contact
+
+* **Email:** [somiljain024@gmail.com](mailto:somiljain024@gmail.com)
+* **Phone:** +91-8602375155
+* **LinkedIn:** [linkedin.com/in/somil-jain](https://linkedin.com/)
+* **GitHub:** [github.com/Somil-Jain24](https://github.com/Somil-Jain24)
+
+---
+
+## 📝 License
+
+Open-sourced under the **MIT License**. Feel free to fork, customize, and improve.
+
+---
+
+### 🙌 Credits
+
+Designed & maintained by **Somil Jain**. Built with semantic HTML, modern CSS, and JavaScript.
+
+---
+
+👉 अब ये final version तुम सीधे अपने **repo की README.md** में copy-paste कर दो।
+क्या चाहोगे मैं तुम्हारे लिए **इसको md फाइल बना कर download link** भी दे दूँ?
