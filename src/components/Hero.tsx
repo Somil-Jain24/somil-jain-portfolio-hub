@@ -17,6 +17,9 @@ const Hero = () => {
                 src={profileImageUrl}
                 alt="Somil Jain - Professional Photo"
                 className="relative w-80 h-80 object-cover rounded-full border-4 border-white shadow-2xl animate-scale-in"
+                onError={(e) => {
+                  console.log('Image failed to load:', e);
+                }}
               />
             </div>
           </div>
