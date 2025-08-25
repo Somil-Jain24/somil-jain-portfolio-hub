@@ -80,17 +80,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-center md:text-left">
-            <p className="text-muted-foreground text-sm">
-              © 2025 Somil Jain. All rights reserved.
-            </p>
-          </div>
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>Made with</span>
-            <Heart className="w-4 h-4 text-red-500" />
-            <span>by Somil Jain</span>
-          </div>
+        <div className="pt-8 border-t border-border flex justify-center items-center">
+          <p className="text-muted-foreground text-sm text-center">
+            © 2025 Somil Jain. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

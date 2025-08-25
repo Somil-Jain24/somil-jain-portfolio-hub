@@ -2,7 +2,7 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 
 const Education = () => {
   return (
-    <section className="py-20 px-4 section-bg">
+  <section id="education" className="py-20 px-4 section-bg">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl font-bold mb-4">
