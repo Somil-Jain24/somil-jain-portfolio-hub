@@ -6,6 +6,7 @@ import Achievements from "@/components/Achievements";
 import Certifications from "@/components/Certifications";
 import Leadership from "@/components/Leadership";
 import Languages from "@/components/Languages";
+import ShaderDemo from "@/components/ShaderDemo";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Education />
       <Skills />
       <Projects />
+      <ShaderDemo />
       <Achievements />
       <Certifications />
       <Leadership />
